@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    padding:0;
+
+    
+    
+}
+.header .logo img{
+    height: 5rem;
+    border-radius: 4px;
+    position: relative;
+   right: 100px;
+   top:8px;
+}
+ .header{
+    background-color: black;
+    width: 81.9rem;
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff; 
+    border-top:1px solid #fff ;
+}
+ .header h1{
+     color: aquamarine;
+     position: relative;
+     left:100vh;
+     text-align: center;
+     border-bottom: 2px solid rgb(192, 192, 192);
+}
+
+.navbar a{
+    position: relative;
+    font-family: 'sans-serif';
+    top:40px;
+    left:80vh;
+    justify-content: space-between;
+    text-align: center;
+    color:#fff;
+    text-decoration: none;
+    padding:10px;
+    font-weight: bolder;
+} 
+.navbar a:hover{
+    color:aqua;
+    border-bottom: 2px solid rgb(192, 192, 192);
+    padding-bottom: 9px;
+    padding-top:9px ;
+   
+}
+section{
+     height:70vh;
+   }
+   
+
+.container .side-image{
+    min-height: 60vh;
+    width:98.7vw;
+    background:url('images/contact.jpg') no-repeat;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    background-position:left;
+    border:1px solid black;
+}
+.container #cnt{
+    color:#ffffff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
+
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 200px;
+    background-color:gainsboro;
+    border:1px solid black;
+    
+}
+footer p{
+   
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+
+}
+section  textarea{
+    height: 40vh;
+    width: 50vw;
+}
+section {
+    height: 60vh;
+  
+    width:98.7vw;
+    text-align: center;
+    margin-bottom:60px;
+}
+section  .iform{
+    display: block;
+    margin-bottom: 10px;
+}section legend{
+    font-size: 18px;
+    font-weight: bold;
+}
+section input[type='submit']{
+ width: 100px;
+ height: 50px;
+ background-color: black;
+ border: black solid 1px;
+ border-radius: 4px;
+ color: #fff;
+}
